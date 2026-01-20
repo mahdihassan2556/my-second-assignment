@@ -12,18 +12,21 @@
     <header>
         <nav>
             <div class="navbar">
-                <h1>Tech<span id="d1">Wave</span></h1>
-                <ul>
+                <h1>Tech<span class="line-1">Wave</span></h1>
+               
+                <ul class="menu">
                     <li>About</li>
                     <li>Episodes</li>
                     <li>Host</li>
                 </ul>
-                <button class="btn"><a href="">Subscribe</a></button>
+                <button class="btn menu"><a href="">Subscribe</a></button>
+              <img src="./assets/hamburger-menu.png" alt="" class="hamburger">
             </div>
         </nav>
         <section class="banner-section">
             <div class="banner-image">
                 <div class=" box hero">
+                    <p class="line-2">New</p>
                     <img src="./assets/hero-circle.png" alt="">
                 </div>
                 <div class="box microphone">
@@ -33,8 +36,14 @@
             <div class="banner-content">
                 <h1>TechWave</h1>
                 <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
-                <button class="btn">Listen on Spotify</button>
-                <button class="btn2">Subscribe</button>
+                <div class="button-box">
+                <div class="button-card">
+                <button class="btn"> <img src="./assets/spotify.png" alt="">Listen on Spotify</button>
+                </div>
+                <div class="button-card">
+                <button class="btn2"> <img src="./assets/message.png" alt="">Subscribe</button>
+                </div>
+                </div>
             </div>
         </section>
 
@@ -54,61 +63,164 @@
                     TechWave.</p>
             </div>
             <div class="podcast-number">
-               <div class="podcast-card">
+                <div class="podcast-card">
                     <h1>150K+</h1>
                     <p>Monthly Listeners</p>
-                </div> 
-               <div class="podcast-card">
+                </div>
+                <div class="podcast-card">
                     <h1>200+</h1>
-                    <p>Episodes Published</p>                  
-                </div> 
-          
-            <div class="podcast-card">
-                 <h1>4.9★</h1>
-                 <p>Average Rating</p>
-             </div> 
-            <div class="podcast-card">
-                 <h1>50+</h1>
-                 <p> Industry Experts </p>                
-             </div> 
-        </div>    
+                    <p>Episodes Published</p>
+                </div>
+
+                <div class="podcast-card">
+                    <h1>4.9★</h1>
+                    <p>Average Rating</p>
+                </div>
+                <div class="podcast-card">
+                    <h1>50+</h1>
+                    <p> Industry Experts </p>
+                </div>
+            </div>
         </section>
 
         <section class="techwave">
             <div class="techwave-container">
-            <div>
-                <h1>Why Choose TechWave</h1>
+                <div>
+                    <h1>Why Choose TechWave</h1>
+                </div>
+                <div class="techwave-card-box">
+                    <div class="techwave-card big-layout">
+                        <img src="./assets/headphone.png" alt="">
+                        <h4>Premium Audio Quality</h4>
+                        <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio
+                            engineering. Every episode is mastered for optimal listening across all devices and
+                            platforms.</p>
+                    </div>
+                    <div class="techwave-card normal-layout">
+                        <img src="./assets/device.png" alt="">
+                        <h4>Mobile Friendly</h4>
+                        <p>Listen on the go with seamless mobile experience and offline downloads. </p>
+                    </div>
+                    <div class="techwave-card normal-layout">
+                        <img src="./assets/location.png" alt="">
+                        <h4>Global Community</h4>
+                        <p>Connect with tech enthusiasts from over 120 countries worldwide.</p>
+                    </div>
+                    <div class="techwave-card normal-layout">
+                        <img src="./assets/location.png" alt="">
+                        <h4>Exclusive Interviews</h4>
+                        <p>Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host
+                            secures exclusive conversations you won't find anywhere else, diving deep into their
+                            journeys, failures, and success strategies.</p>
+                    </div>
+                    <div class="techwave-card small-layout">
+                        <img src="./assets/resource.png" alt="">
+                        <h4>Rich Resources</h4>
+                        <p>Access show notes, transcripts, and additional learning materials for every episode.</p>
+                    </div>
+                </div>
             </div>
-            <div class="techwave-card-box">
-                <div class="techwave-card big-layout">
-                    <img src="./assets/headphone.png" alt="">
-                    <h4>Premium Audio Quality</h4>
-                    <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
-                </div>
-                <div class="techwave-card normal-layout">
-                    <img src="./assets/device.png" alt="">
-                    <h4>Mobile Friendly</h4>
-                    <p>Listen on the go with seamless mobile experience and offline downloads. </p>
-                </div>
-                <div class="techwave-card normal-layout">
-                    <img src="./assets/location.png" alt="">
-                    <h4>Global Community</h4>
-                    <p>Connect with tech enthusiasts from over 120 countries worldwide.</p>
-                </div>
-                <div class="techwave-card normal-layout">
-                    <img src="" alt="">
-                    <h4>Exclusive Interviews</h4>
-                    <p>Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
-                </div>
-                <div class="techwave-card small-layout">
-                    <img src="./assets/resource.png" alt="">
-                    <h4>Rich Resources</h4>
-                    <p>Access show notes, transcripts, and additional learning materials for every episode.</p>
+        </section>
+        <section class="episode-container">
+            <div class="episode-part">
+                <h1>Featured Episodes</h1>
+                <div class="episode-card">
+                    <div class="episode-video">
+                        <iframe width="100%" height="315"
+                            src="https://www.youtube.com/embed/lq-sWRnYWKQ?si=5HlIThev8lkmSPdL"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="episode-text">
+                            <h2>The system of English learning is wrong.</h2>
+                            <p>You all Students can learn english easily in your own home.The all tips are here.You will
+                                know how can you learn English easily in this video.Watch full video for your best
+                                experience.</p>
+                            <span> <img src="./assets/clock.png" alt=""></span>
+                            <span>42 min</span>
+                        </div>
+                    </div>
+                    <div class="episode-card">
+                        <div class="episode-video">
+                            <iframe width="100%" height="315"
+                                src="https://www.youtube.com/embed/z58Sh8IndkY?si=A2UKU8Q0LZWXId-t"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="episode-text">
+                                <h2>You must learn AI skills in present Era.</h2>
+                                <p>If you learn AI skills, you can live easily in present and future.So don't waste your
+                                    time in your reels.Be serios in your life.</p>
+                                <span> <img src="./assets/clock.png" alt=""></span>
+                                <span>42 min</span>
+                            </div>
+                        </div>
+                        <div class="episode-card">
+                            <div class="episode-video">
+                                <iframe width="100%" height="315"
+                                    src="https://www.youtube.com/embed/S_p5kZycBsI?si=Q6JJECEz3OLPq94d"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <div class="episode-text">
+                                    <h2>The system of English learning is wrong.</h2>
+                                    <p>You all Students can learn english easily in your own home.The all tips are
+                                        here...</p>
+                                    <span> <img src="./assets/clock.png" alt=""></span>
+                                    <span>42 min</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+        <section class="host-container">
+            <div class="host">
+                <h1>Meet the Host</h1>
+                <div class="host-main">
+                    <img src="./assets/host.png" alt="">
+
+                    <div class="host-text">
+                        <h2>Alex Kumar</h2>
+                        <p>Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech
+                            industry for over 10 years,<br> working with startups and Fortune 500 companies. Through
+                            TechWave, Alex shares insights from industry leaders and <br> practical advice for anyone
+                            looking
+                            to grow in tech.</p>
+                        <div class="host-image">
+                             <img src="./assets/linkedin.png" alt="">
+                            <img src="./assets/x.png" alt="">
+                            <img src="./assets/instagram.png" alt="">
+                            <img src="./assets/youtube.png" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
-         </div>
         </section>
     </main>
+    <footer>
+        <div class="footer-main">
+            <h1>Tech<span class="line-1">Wave</span></h1>
+        <div class="footer-card-box">
+            <div class="footer-card">
+               <img src="./assets/spotify.png" alt="">
+                <p>Spotify</p>
+            </div>
+            <div class="footer-card">
+              <img src="./assets/apple-podcast.png" alt="">
+                <p>Apple Podcasts</p>
+            </div>
+            <div class="footer-card">
+              <img src="./assets/youtube-podcast.png" alt="">
+                <p>YouTube</p>
+            </div>
+            <div class="footer-card">
+              <img src="./assets/twitter.png" alt="">
+                <p>Twitter</p>
+            </div>
+         </div>
+            <p class="d2">© 2026 TechWave Podcast. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 
 </html>

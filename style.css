@@ -17,10 +17,14 @@ header{
     display: flex;
     list-style: none;
     gap: 50px;
-
+}
+.hamburger{
+    display: none;
 }
 .navbar h1{
     color: #ffffff;
+    font-size: 45px;
+    font-weight: bold;
 }
 .navbar ul{
    color:  rgba(255, 255, 255, 0.6);
@@ -29,9 +33,7 @@ header{
     text-decoration: none;
     color: #ffffff
 }
-#d1{
-    color: ;
-}
+
 .banner-section{
     background-image: url(./assets/hero-bg.png);
     display: flex;
@@ -52,6 +54,18 @@ header{
     margin-bottom: 20px;
 
 }
+.line-2{
+    font-size: 28px;
+    font-weight: 500;
+    background-color: #00FF88;
+    border-radius: 30px;
+    width: 70px;
+    padding: 8px 16px;
+   position: absolute;
+   left: 240px;
+   top: 10px;
+}
+  
 .banner-content p{
     font-size: 16px;
     color:  rgba(255, 255, 255, 0.6);
@@ -68,6 +82,18 @@ color: #ffffff;
     padding: 12px 20px;
     border-radius: 50px;
     color: #00FF88;
+    border: 2px solid #00FF88;
+    background-color: #1A0B2E;
+}
+.button-box{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.button-card button{
+    display: flex;
+  align-items: center;
+  gap: 8px;
 }
 .banner-image{
    max-height: 500px;
@@ -144,6 +170,7 @@ main{
     display: flex;
     flex-direction: column;
     gap: 16px;
+    padding-bottom: 120px;
 }
 .techwave{
     background-color: #230E3D;
@@ -192,4 +219,200 @@ main{
     font-weight: 300;
     line-height: 24px;
     color: rgba(255, 255, 255, 0.6);
+}
+.techwave-container h1{
+    text-align: center;
+    color: #ffffff;   
+    padding-bottom: 40px;
+    font-size: 48px;
+    font-weight: bold;
+}
+.techwave-container {
+    padding-bottom: 120px;
+     padding-top: 120px;
+}
+.episode-text{
+    padding: 25px;
+}
+.episode-text h2{
+    padding-bottom: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.episode-container{
+    background-color: #1A0B2E;
+    padding-top: 120px;
+}
+.episode-part{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.episode-text p{
+    color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 16px;
+}
+.episode-text span{
+    color: #00FF88;
+    font-size: 16px;
+    font-weight: 600;
+}
+.episode-video{
+    background-color: #250D44;
+    border-radius: 30px;
+}
+.episode-card{
+    display: grid;
+    grid-template-columns: repeat(3,380px);
+    column-gap: 20px;
+}
+.episode-part h1{
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.host{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.host h1{
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 120px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 40px;
+}
+.host-main{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 40px;
+    background-color:#250D44;
+    border-radius: 30px;
+}
+.host-main h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+.host-main p{
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 25px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.host-container{
+    background-color: #1A0B2E;
+    padding-bottom: 120px;
+}
+.host-image {
+    display: flex;
+    flex-direction: row;
+
+    gap: 10px;
+    align-items: center;
+}
+.host-image img{
+    border: 1px solid #533C72;
+    border-radius: 13px;
+    padding: 3px;
+    width: 25px;
+    height: 25px;
+    box-sizing: border-box;
+}
+footer{
+    background-image: url(./assets/footer-bg.png);
+    max-width: 1600px;
+    margin: 0 auto;
+  
+}
+.footer-main{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.line-1{
+   background: linear-gradient(to right, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.footer-main h1{
+padding-top: 120px;
+font-size: 50px;
+font-weight: bold;
+color: #ffffff;
+padding-bottom: 35px;
+}
+.footer-main .d2{
+    color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 120px;
+    padding-top: 35px;
+}
+.footer-card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    
+}
+.footer-card {
+    display: flex;
+   gap: 15px;
+}
+.footer-card-box{
+    display: flex;
+    gap: 25px; 
+   justify-content: center;
+}
+@media screen and (max-width:576px){
+      .podcast-number{
+   grid-template-columns: repeat(2,130px);
+       padding: 0 40px;
+
+   }
+   .podcast-content{
+    margin: 0 20px;
+   }
+   .techwave-card-box, .episode-card{
+    grid-template-columns: repeat(1,400px);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+   
+   }  
+  .techwave-container{
+    margin: 0 10px;
+  }
+  .episode-part{
+    margin: 0 20px;
+  }
+   .hamburger{
+  display: flex;
+   }
+   .menu li, button{
+    display: none;
+   }
+   .host-main{
+    flex-direction: column;
+    margin: 0 20px;
+   }
+   .host-text{
+    text-align: center;
+   }
+   .host-image{
+    justify-content: center;
+   }
+  .footer-card-box{
+    display: grid;
+    grid-template-columns: repeat(2,150px);
+  
+  }
+  
+
+ 
 }
