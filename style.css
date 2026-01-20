@@ -127,10 +127,10 @@ cursor: pointer;
 }
 @keyframes moveBox {
     from{
-        transform: translateX(0);
+        transform: translateY(0);
     }
     to{
-        transform: translateX(100px);
+        transform:translateY(100px);
     }
 }
 .hero{
