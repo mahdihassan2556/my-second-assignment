@@ -1,5 +1,6 @@
 *{
     margin: 0;
+   padding: 0;
 }
 header{
     max-width: 1600px;
@@ -133,6 +134,10 @@ main{
 .podcast-container{
     background-color: #1A0B2E;
 }
+.pocast-main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .podcast-content{
     display: flex;
     flex-direction: column;
@@ -165,7 +170,7 @@ main{
    grid-template-columns: repeat(4,1fr);
    max-width: 1200px;
    margin: 0 auto;
-   column-gap: 230px;
+   column-gap: 220px;
    margin-top: 80px;
 }
 .podcast-card h1{
@@ -390,8 +395,10 @@ padding-bottom: 35px;
 }
 @media screen and (max-width:576px){
       .podcast-number{
-    grid-template-columns: repeat(2,90px);
-     padding: 0 40px;
+    grid-template-columns: repeat(2,190px);
+     padding: 0 35px;
+     column-gap: 35px;
+    
 
    }
    .podcast-content{
@@ -427,7 +434,7 @@ padding-bottom: 35px;
    }
   .footer-card-box{
     display: grid;
-    grid-template-columns: repeat(2,160px);
+    grid-template-columns: repeat(2,150px);
   }
   footer{
     background-size: cover;
