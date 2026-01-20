@@ -91,6 +91,10 @@ background: linear-gradient(to right, #F7E93F 0%,#FB09B4 51%, #9100F8 100%);
 padding: 10px 16px;
 border-radius: 50px;
 color: #ffffff;
+cursor: pointer;
+}
+.btn:hover{
+    transform: scale(1.1);
 }
 .btn2{
     padding: 12px 20px;
@@ -98,6 +102,7 @@ color: #ffffff;
     color: #00FF88;
     border: 2px solid #00FF88;
     background-color: #1A0B2E;
+    cursor: pointer;
 }
 .button-box{
     display: flex;
@@ -117,8 +122,16 @@ color: #ffffff;
 .microphone{
   top: -300px;
  left: 5px;
-
+ animation: moveBox 2s infinite alternate;
  
+}
+@keyframes moveBox {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(200px);
+    }
 }
 .hero{
     margin-top: 140px;
