@@ -130,7 +130,7 @@ cursor: pointer;
         transform: translateX(0);
     }
     to{
-        transform: translateX(200px);
+        transform: translateX(100px);
     }
 }
 .hero{
